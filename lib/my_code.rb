@@ -18,6 +18,7 @@ def reduce_to_total(source_array, starting_point = 0)
   source_array.reduce(starting_point) {|sum, p| sum+p}
 end
 
+<<<<<<< HEAD
 
 def reduce_to_all_true(source_array)
 
@@ -43,3 +44,10 @@ i+=1
 end 
 return false 
 end 
+=======
+def reduce_to_all_true(source_array)
+  source_array.reduce {|d| d}
+
+end
+end
+>>>>>>> ffd0b96d2db4877145f8d84ee73f9a10dbc6ed68
